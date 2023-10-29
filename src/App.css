@@ -1,0 +1,25 @@
+.ln-table .ant-table {
+  border-radius: 0 !important;
+  background-color: #d99a29 !important;
+}
+.ln-table .ant-table .ant-table-cell {
+  border: none !important;
+}
+.ln-table .ant-table .ant-table-cell::before {
+  display: none;
+}
+.ln-table .ant-table .ant-table-thead .ant-table-cell {
+  background-color: #d99a29 !important;
+}
+.ln-table .ant-table .ant-table-tbody .ant-table-cell {
+  color: white !important;
+}
+.ln-table .ant-table .ant-table-tbody:hover .ant-table-cell {
+  background: none;
+}
+.ln-table .ant-pagination .ant-pagination-item a {
+  color: white !important;
+}
+.ln-table .ant-pagination .ant-pagination-item-active a {
+  color: #1677ff !important;
+}/*# sourceMappingURL=App.css.map */

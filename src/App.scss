@@ -1,0 +1,42 @@
+.ln-table {
+  .ant-table {
+    border-radius: 0 !important;
+    background-color: #d99a29 !important;
+
+    .ant-table-cell {
+      border: none !important;
+
+      &::before {
+        display: none;
+      }
+    }
+    .ant-table-thead {
+      .ant-table-cell {
+        background-color: #d99a29 !important;
+      }
+    }
+    .ant-table-tbody {
+      .ant-table-cell {
+        color: white !important;
+      }
+      &:hover {
+        .ant-table-cell {
+          background: none;
+        }
+      }
+    }
+  }
+
+  .ant-pagination {
+    .ant-pagination-item {
+      a {
+        color: white !important;
+      }
+    }
+    .ant-pagination-item-active {
+      a {
+        color: #1677ff !important;
+      }
+    }
+  }
+}
